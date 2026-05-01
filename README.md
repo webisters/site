@@ -10,8 +10,17 @@ Webisters Static Site Project This project is intended as an application-level c
 ## Setup
 ```bash
 composer global require webisters/webisters
-php webisters new-site site
+# Optional (Windows): automatically adds Composer global bin-dir to PATH
+composer global exec webisters setup
+
+# Create the project (preferred)
+webisters new-site site
+
+# If `webisters` is not on PATH yet, use the no-PATH fallback:
+# composer global exec webisters new-site site
+
 cd site
+composer install
 ```
 
 ## Run Locally
