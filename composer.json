@@ -26,7 +26,7 @@
         "php": ">=8.2"
     },
     "require-dev": {
-        "webisters/webisters": "^1.0",
+        "webisters/webisters": "^2.0",
         "webisters/coding-standard": "^1.0",
         "phpunit/phpunit": "^11.5"
     },
